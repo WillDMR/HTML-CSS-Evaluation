@@ -356,4 +356,18 @@ footer *{
 
 /* Annimation */
 
-.hotel:hover{}
+.hotel, .hotel2{
+    transition: 1s;
+}
+
+.hotel:hover, .hotel2:hover{
+    transform: scale(1.25);
+}
+
+.anim{
+    transition: 1s;
+}
+
+.anim:hover{
+    transform: scale(1.05);
+}
