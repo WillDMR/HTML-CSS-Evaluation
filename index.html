@@ -11,16 +11,14 @@
 <body>
     <header>
         <div class="haut">
-            <div>
+            <div class="logo">
                 <a href="./index.html"><img src="./images/logo/Reservia.svg" alt="Reservia, Accueil"></a>
             </div>
-            <div class="navigation">
-                <nav>
-                    <a href="#hebergements">Hébergement</a>
-                    <a href="#activités">Activités</a>
-                    <a href="#">S'inscrire</a>
-                </nav>
-            </div>
+            <nav>
+                <a href="#hebergements" class="nav-heb">Hébergement</a>
+                <a href="#activités" class="nav-act">Activités</a>
+                <a href="#" class="inscription">S'inscrire</a>
+            </nav>
         </div>
         <div class="titre">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -29,7 +27,7 @@
                 <div class="search">
                     <i class="fa-solid fa-location-dot"></i>
                     <input text="search" placeholder="Rechercher..." value="Marseille, France"/> 
-                    <button> <p>Recherche </p></button>
+                    <button> <p>Recherche </p> <i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </form>
         </div>
@@ -41,7 +39,7 @@
             <button><div><i class="fa-solid fa-money-bill"></i></div>   Economique  </button>
             <button><div><i class="fa-solid fa-person"></i></div>   Familial  </button>
             <button><div><i class="fa-solid fa-heart"></i></div>   Romantique  </button>
-            <button><div><i class="fa-solid fa-dog"></i></div>   Animaux autorisés  </button>
+            <button><div><i class="fa-solid fa-dog"></i></div> Animaux autorisés </button>
         </div>
         <p class="info"> <i class="fa-solid fa-info"></i> Plus de 500 logement sont disponible dans cette ville</p>
 
